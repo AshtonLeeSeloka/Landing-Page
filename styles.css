@@ -1,17 +1,21 @@
 .web-content{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;
     height: 100vh;
 
+}
+
+body{
+    margin: 0px;
 }
 
 .main-top {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    height: fit-content;
+    height:auto;
+    padding-left: 100px;
+    padding-right: 100px;
 
 }
 
@@ -37,12 +41,13 @@
 .image-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px;
 }
 
 .quote-heading {
     text-align: right;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .footer {
@@ -50,6 +55,43 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
     
 }
 
+.main-top{
+    background-color: #1F2937;
+    font-family: her;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar{
+    margin: 10px;
+}
+
+.lh-top-content{
+    color: white;
+    padding: 10px;
+    width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.content-bottom{
+    background-color: #E5E7EB;
+    padding-left: 100px;
+    padding-right: 100px;
+}
